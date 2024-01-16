@@ -1,0 +1,94 @@
+h3 {
+  text-align: center;
+}
+.online {
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  color: blue;
+}
+.online:focus {
+  text-decoration: none;
+  color: blueviolet;
+  text-decoration: line-through;
+}
+
+
+section {
+  display: flex;
+}
+
+.monday li:first-child {
+  list-style-type: none;
+  font-size: 23px;
+  color: brown;
+  font-weight: bold;
+}
+
+.monday li:nth-child(n + 2):hover {
+  text-decoration: line-through;
+  font-size: 30px;
+  color: green;
+}
+.monday li:nth-child(n + 2) {
+  color: red;
+}
+
+.tuesday li:nth-child(-n + 1) {
+  color: darkcyan;
+  list-style-type: none;
+  font-size: 23px;
+  font-weight: bold;
+}
+.tuesday li:nth-child(n + 2):hover {
+  text-decoration: line-through;
+  color: green;
+}
+.tuesday li:nth-child(n + 2) {
+  color: red;
+}
+
+.wednesday li:first-child {
+  list-style-type: none;
+  font-size: 23px;
+  font-weight: bold;
+  color: coral;
+}
+.wednesday li:nth-child(n + 2):active {
+  text-decoration: line-through;
+  color: green;
+}
+.wednesday li:nth-child(n + 2) {
+  color: red;
+}
+.thursday li:first-child {
+    list-style-type: none;
+    font-size: 23px;
+    color: green;
+    font-weight: bold;
+  }
+  
+  .thursday li:nth-child(n + 2):hover {
+    text-decoration: line-through;
+    font-size: 30px;
+    color: blue;
+  }
+  .thursday li:nth-child(n + 2) {
+    color: pink;
+  }
+  .friday li:first-child {
+    list-style-type: none;
+    font-size: 23px;
+    color: goldenrod;
+    font-weight: bold;
+  }
+  
+  .friday li:nth-child(n + 2):active {
+    text-decoration: line-through;
+    font-size: 30px;
+    color: olive;
+  }
+  .friday li:nth-child(n + 2) {
+    color: indigo;
+  }
+
